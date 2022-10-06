@@ -6,7 +6,12 @@ namespace Application
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World");
+			_tMain(args);
+		}
+
+		static void _tMain(string[] args)
+		{
+			Console.WriteLine("_tMain World");
 		}
 	}
 }
